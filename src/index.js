@@ -1,8 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+import Title from './components/Title';
+import Form from './components/Form';
+import Output from './components/Output';
+
+function App() {
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6 offset-md-3">
+          <Title />
+          <Form />
+          <Output />
+        </div>
+      </div>
+    </div>
+  );
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
