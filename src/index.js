@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
 
-import * as serviceWorker from './serviceWorker';
-
 import Title from './components/Title';
 import Form from './components/Form';
 import Output from './components/Output';
+
+import * as serviceWorker from './serviceWorker';
 
 function App() {
   return (
