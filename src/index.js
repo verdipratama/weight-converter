@@ -4,7 +4,6 @@ import './styles/index.css';
 
 import Title from './components/Title';
 import Form from './components/Form';
-import Output from './components/Output';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -15,7 +14,6 @@ function App() {
         <div className="col-md-6 offset-md-3">
           <Title />
           <Form />
-          <Output />
         </div>
       </div>
     </div>
